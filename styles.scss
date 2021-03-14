@@ -1,0 +1,140 @@
+@import "./styles/header";
+@import "./styles/variables";
+@import "./styles/footer";
+@import "./styles/tablet-resolution";
+@import "./styles/pc-resolution";
+
+/*seccion de bienvenida y presentacion*/
+#bienvenida{ 
+    margin-top: 2rem;
+    margin-right: 1rem;
+    text-align: center;
+    h1, h2{
+        @extend %h2;
+        text-align: left;
+    }
+    .world{
+        text-decoration:line-through;
+    }
+    p{
+        text-align: left;
+        margin-left:1rem;
+        font-family: $plexMono;
+        font-size: $p_size;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    button{
+        margin-left:1rem;
+        margin-bottom: 2rem;
+        padding:1rem 5.8rem;
+        @extend %button;
+    }
+    button:hover{
+        @extend %buttonHover;
+    }
+}
+/*fin de seccion de episodios*/
+
+#episodios{
+    justify-content: flex-start;
+    padding-bottom: 12rem;
+    padding-top: 5rem;
+    background-image: $fondo_color;
+    clip-path: $forma_fondo;
+    
+    h2{
+        @extend %h2;
+        color: white;
+        
+    }
+    .spotify{  
+        padding-right:.6rem;
+        padding-left: .6rem;    
+    }
+    .inframe{
+        width: 100%;
+        height: 232px;
+        border: none;
+    }
+}
+/*comienzo de seccion nosotros*/
+div{
+    #phone{
+        position: relative;
+        top: -8rem;        
+        margin-bottom: 0rem;            
+    }
+    #descripcion{
+        position: relative;
+        top:-5rem;
+    
+        h2{
+            @extend %h2;
+        }
+        p{
+            display: block;
+            margin: 1rem 1rem 0rem 1rem;
+            font-family: $plexMono;
+            font-size: $p_size;
+            font-weight: 300;
+        }
+
+    }
+}
+/*comienzo de seccion de invitados*/
+#invitados{
+    position: relative;
+    top: -2.8rem;
+    h2{
+        @extend %h2;
+    }
+    img{
+        display: flex;
+    }
+    
+}
+/*fin de seccion invitados*/
+/*comienzo de seccion temas*/
+#temas{
+    text-align: center;
+    div{
+        display: inline-block;
+        margin:.5rem;
+    }
+    h2{
+        @extend %h2;
+        text-align:left;
+    }
+    img{
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+    p{
+        font-family:$plexSans;
+        font-size: $h2_size / 1.5;
+        font-weight: 600;
+    }
+    
+}
+
+#novedades{
+    margin-top: 4rem;
+    background-image: $fondo_color;
+    clip-path: $forma_fondo2;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    h2{
+        @extend %h2;
+        padding-bottom: 2rem;
+        color: white;
+    }
+    button{
+        padding: 1rem 3rem;
+        @extend %button;
+    }    
+    button:hover{
+            @extend %buttonHover;
+    }    
+}

@@ -1,0 +1,59 @@
+@import "./variables";
+
+*{
+    margin: 0px;
+    max-width: 100%;
+}
+
+header{
+    position: relative;
+    img{
+        padding:.5em 0em 0em 1em ;
+    }
+    .fa-bars{
+        position: absolute;
+        top:.5em;
+        left: 92%;
+    }
+    .fa-times{
+        visibility: hidden;
+        position: absolute;
+        top:.5em;
+        left: 92%;
+    }
+    #menu:checked ~ * .fa-bars{
+        visibility: hidden;
+    }
+    #menu:checked ~ * .fa-times{
+        visibility: visible;
+    }
+
+    .menu{
+        display: none;
+    }
+    a{ 
+        font-family: $plexMono;
+        display: none;
+        color: white;
+        text-decoration: none;
+        padding:2em 0em 2em 0em;
+
+    }
+
+    .menu:checked ~ * a{
+        display:block;
+    }
+    .lista{
+        width: 100%;
+        text-align: center;
+        background-color: $color_nav;
+        display: block;
+    }
+    a:hover{
+        @extend %styleHoverSection;
+    }
+    a:active {
+        @extend %styleActiveSection;
+    }
+    
+}

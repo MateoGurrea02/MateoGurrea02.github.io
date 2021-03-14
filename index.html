@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Podcast Channel</title>
+</head>
+
+<body>
+    <header>
+        <img src="image/logo.svg" alt="">
+            <nav>
+                <input type="checkbox" id="menu" class="menu">
+                <label for="menu" class="desplegable">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </label>
+
+                <div class="lista">
+                    <a href="#episodios">EPISODIOS</a>
+                    <a href="#de_donde_venimos">NOSOTROS</a>
+                    <a href="#invitados">ENTREVISTAS</a>
+                    <a href="#temas">TÓPICOS</a>
+                </div>
+            </nav>
+
+    </header>
+
+    <section>
+        <article id="bienvenida">
+            <h1>Hello <span class="world">world</span> pale blue dot.</h1>
+            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 dias.</p>
+
+            <button>CONOCÉ MÁS</button>
+        </article>
+        <article id="episodios">
+            <h2>Episodios</h2>
+            <div class="spotify">
+
+                <iframe class="inframe" src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                    allow="encrypted-media"></iframe>
+                <iframe class="inframe" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"
+                    allow="encrypted-media"></iframe>
+                <iframe class="inframe" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+                    allow="encrypted-media"></iframe>
+                <iframe class="inframe" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"
+                    allow="encrypted-media"></iframe>
+
+            </div>
+        </article>
+        <div>
+            <div id="phone">
+                <img id="de_donde_venimos" src="image/phone.png" alt="Imagen de un celular">
+            </div>
+
+            <article id="descripcion">
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in
+                    theUniverse, are challenged by this point of pale light.Our planet is a lonely speck in the great
+                    enveloping cosmic dark. In our obscurity, in all thisvastness, there is no hint that help will come
+                    from
+                    elsewhere to save us from ourselves.</p>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in
+                    theUniverse, are challenged by this point of pale light.Our planet is a lonely speck in the great
+                    enveloping cosmic dark. In our obscurity, in all thisvastness, there is no hint that help will come
+                    from
+                    elsewhere to save us from ourselves.</p>
+            </article>
+        </div>
+        <article id="invitados">
+            <h2>Invitadas/os estelares</h2>
+            <div>
+                <img src="image/grace-hopper.png" alt="Imagen de Grace Hopper">
+                <img src="image/Katie-Bouman.png" alt="Imagen de Katie Bouman">
+                <img src="image/Margaret_Hamilton.png" alt="Imagen de Margaret Hamilton">
+                <img src="image/AnE.R.A.Univac1103computerinthe1950s.png"
+                    alt="Imagen del Sistema computarizado de UNIVAC ">
+                <img src="image/ComputeroperatorswithanEniactheworld’sfirstprogrammablegeneral-purposecomputer.png"
+                    alt="Imagen de Primer computadora programable">
+                <img src="image/susan-kare.png" alt="Imagen de Susan Kare">
+            </div>
+        </article>
+
+        <article id="temas">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="temas_padre">
+                <div>
+                    <img src="image/icon1.svg" alt="Icono">
+                    <p>Trabajo remoto</p>
+                </div>
+                <div>
+                    <img src="image/icon2.svg" alt="Icono">
+                    <p>Repensando la programación</p>
+                </div>
+                <div>
+                    <img src="image/icon3.svg" alt="Icono">
+                    <p>Bases del código</p>
+                </div>
+                <div>
+                    <img src="image/icon4.svg" alt="Icono">
+                    <p>Seguridad informática</p>
+                </div>
+            </div>
+        </article>
+
+        <article id="novedades">
+            <h2>¿Querés las últimas novedades?</h2>
+            <button>ESCUCHÁ LOS EPISODIOS</button>
+        </article>
+    </section>
+
+    <footer>
+        <p>© 2019— Hello blue pale dot</p>
+        <div>
+            <a href="https://www.spotify.com/ar/"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://web.telegram.org/#/login"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/c27ca5b0e1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

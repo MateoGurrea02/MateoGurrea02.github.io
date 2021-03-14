@@ -1,0 +1,83 @@
+@media only screen and (min-width:1025px) {
+
+    /*--------------comienzo de secciones-----------*/
+ 
+    /*comienzo de bienvenida*/
+    #bienvenida{
+        margin-left:10rem;
+        h1{
+            margin-top: 7rem;
+        }
+        p{
+            width:30rem;
+        }
+    }
+    /*fin de bienvenida*/
+
+    /*comienzo de seccion episodios*/
+    #episodios{
+        text-align: center;
+        h2{
+            text-align: left;
+            margin-left: 10rem;
+        }
+        .spotify{
+            display: inline-block;
+            .inframe{
+                margin: 2rem;
+                width: 44%;
+                justify-content:center;
+            }
+        }
+    }
+    /*comienzo de seccion nosotros*/
+
+    div{
+        #phone{ 
+            width: 20rem;
+            margin-left: 15vw;
+            
+        }
+        #descripcion{
+            width: 55%;
+            h2{
+                width: 30rem;
+            }
+            
+            p{
+                width: 35rem;
+            }
+        }
+    }
+    
+    /*fin de seccion nosotros*/
+
+    /*comienzo de seccion invitados*/
+    #invitados{
+        h2{
+            margin-left: 10rem;
+        }
+        img{
+            width: 33.33%;
+        }
+    }
+   
+    /*fin de seccion invitados*/
+    
+    /*comienzo de seccion de temas*/
+    #temas{
+        text-align: center;
+        h2{
+            margin-left: 10rem;
+        }
+        .temas_padre{
+            margin: 0rem 5rem;             
+
+        }
+    }
+    
+    
+    /*fin de seccion de temas*/
+
+    /*---------footer sin cambios----------*/
+}

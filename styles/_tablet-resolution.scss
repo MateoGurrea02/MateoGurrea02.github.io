@@ -1,0 +1,87 @@
+@media only screen and (min-width:426px) {
+
+    /*comienzo de secciones*/
+ 
+    /*comienzo de bienvenida*/
+    #bienvenida{
+        text-align: left;
+        p{
+            width: 55%;
+        }
+        button{
+            display: flex;
+        }
+    }
+    /*fin de bienvenida*/
+    /*comienzo de seccion nosotros*/
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        #phone{
+            width: 40%;
+            display: flex;
+        }
+        #descripcion{
+            width: 60%;
+            flex-wrap: wrap;
+        }
+    }
+    /*fin de seccion nosotros*/
+    /*comienzo de seccion invitados*/
+    #invitados{
+        img{
+            width: 50%;
+        }
+        div{
+            display: flex;
+        }
+    }
+    /*fin de seccion invitados*/
+    
+    /*comienzo de seccion de temas*/
+    #temas{
+        .padre{
+            display: flex;
+            justify-content: space-around;
+            div{
+                display: block;   
+                margin: 1rem;
+            }
+        }
+    }
+    
+    /*fin de seccion de temas*/
+    /*comienzo del footer*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        div{
+            margin-top: 1rem;
+        }
+        p{
+            margin-left: 1rem;
+        }
+    }
+    /*fin del footer*/
+}
+@media only screen and (min-width:760px){ 
+header{
+    display: flex;
+    justify-content: space-between;
+    .desplegable{
+        display: none;
+    }
+    a{
+        display: inline-block;
+        color: $color_font;
+        padding: 10px;         
+    }
+    .lista{
+        width: 100%;
+        display: inline;
+        background-color: transparent;
+    }
+}
+}
